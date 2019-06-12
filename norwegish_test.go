@@ -16,6 +16,7 @@ func TestTranslate(t *testing.T) {
 		{"can", "kan"},
 		{"thing", "ting"},
 		{"wish", "vish"},
+		{"World", "Vørld"},
 	}
 	for _, tt := range testCases {
 		got := norwegish.Translate(tt.in)
